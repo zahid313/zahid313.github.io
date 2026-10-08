@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policies - Mobile Apps Portfolio by Zahid</title>
+  <meta name="description" content="Public Privacy Policies directory for all mobile apps and cost estimators developed by Zahid.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b1120;
+      --card-bg: #1e293b;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent-hover: #0284c7;
+      --border: #334155;
+      --card-hover: #24344d;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.6;
+      padding: 3rem 1.5rem;
+    }
+    .container {
+      max-width: 1140px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(56, 189, 248, 0.1);
+      color: var(--accent);
+      border: 1px solid rgba(56, 189, 248, 0.25);
+      padding: 0.4rem 1rem;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: #ffffff;
+      margin-bottom: 1rem;
+    }
+    header p {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    .search-bar {
+      margin: 2.5rem auto 3rem;
+      max-width: 580px;
+      position: relative;
+    }
+    .search-input {
+      width: 100%;
+      padding: 1rem 1.5rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      color: #fff;
+      font-size: 1rem;
+      outline: none;
+      transition: all 0.2s ease;
+      box-shadow: 0 10px 25px -5px rgba(0,0,0,0.3);
+    }
+    .search-input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.2);
+    }
+    .stats-bar {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 3rem;
+      flex-wrap: wrap;
+    }
+    .stat-item {
+      background: rgba(30, 41, 59, 0.6);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 0.85rem 1.75rem;
+      text-align: center;
+    }
+    .stat-number {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--accent);
+    }
+    .stat-label {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+      text-decoration: none;
+      color: inherit;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: var(--accent);
+      background: var(--card-hover);
+      box-shadow: 0 20px 35px -10px rgba(0, 0, 0, 0.5);
+    }
+    .card-category {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+    }
+    .card-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 0.5rem;
+      line-height: 1.3;
+    }
+    .card-package {
+      font-family: monospace;
+      font-size: 0.8rem;
+      background: var(--bg);
+      padding: 0.25rem 0.6rem;
+      border-radius: 6px;
+      color: #cbd5e1;
+      display: inline-block;
+      margin-bottom: 0.85rem;
+      border: 1px solid rgba(255,255,255,0.05);
+    }
+    .card-desc {
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+      flex-grow: 1;
+    }
+    .card-link {
+      font-size: 0.92rem;
+      font-weight: 600;
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .card:hover .card-link {
+      color: #ffffff;
+    }
+    footer {
+      margin-top: 5rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+    @media (max-width: 640px) {
+      h1 { font-size: 2rem; }
+      .grid { grid-template-columns: 1fr; }
+      body { padding: 2rem 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="badge">Legal & Privacy Center</div>
+      <h1>Mobile Applications Privacy Policies</h1>
+      <p>Official publicly accessible privacy statements for Google Play Store compliance, AdMob disclosures, and GDPR/CCPA standards.</p>
+    </header>
+
+    <div class="stats-bar">
+      <div class="stat-item">
+        <div class="stat-number">17</div>
+        <div class="stat-label">Applications</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">100%</div>
+        <div class="stat-label">Offline-First</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">Zero</div>
+        <div class="stat-label">Data Transmitted to Private Servers</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">Google AdMob</div>
+        <div class="stat-label">Compliant Advertising</div>
+      </div>
+    </div>
+
+    <div class="search-bar">
+      <input type="text" id="searchInput" class="search-input" placeholder="Search app name, package name, or trade..." onkeyup="filterCards()">
+    </div>
+
+    <div class="grid" id="appsGrid">
+      
+      <a href="contractor-cost-estimator.html" class="card" data-search="contractor cost estimator (master 30-in-1) com.lonestarbuilders.estimator trade & construction contractor-cost-estimator">
+        <div>
+          <div class="card-category">Trade & Construction</div>
+          <div class="card-title">Contractor Cost Estimator (Master 30-in-1)</div>
+          <div class="card-package">com.lonestarbuilders.estimator</div>
+          <div class="card-desc">Professional multi-trade job site calculator, contractor branding presets, lead management CRM, and material estimation tool.</div>
+        </div>
+        <div class="card-link">View Privacy Policy →</div>
+      </a>
+      
+      <a href="roofing-cost-estimator.html" class="card" data-search="apex roofing & storm estimator com.apexroofing.estimator trade & construction roofing-cost-estimator">
+        <div>
+          <div class="card-category">Trade & Construction</div>
+          <div class="card-title">Apex Roofing & Storm Estimator</div>
+          <div class="card-package">com.apexroofing.estimator</div>
+          <div class="card-desc">Roofing pitch slope calculator, hail impact shingles, tear-off cost calculations, and insurance deductible estimator.</div>
+        </div>
+        <div class="card-link">View Privacy Policy →</div>
+      </a>
+      
+      <a href="fencing-cost-estimator.html" class="card" data-search="timberguard fencing estimator com.timberguard.estimator trade & construction fencing-cost-estimator">
+        <div>
+          <div class="card-category">Trade & Construction</div>
+          <div class="card-title">TimberGuard Fencing Estimator</div>
+          <div class="card-package">com.timberguard.estimator</div>
+          <div class="card-desc">Privacy fence and gate cost calculator, post-hole concrete estimation, and material breakdown tool.</div>
+        </div>
+        <div class="card-link">View Privacy Policy →</div>
+      </a>
+      
+      <a href="electrical-cost-estimator.html" class="card" data-search="voltcraft electrical estimator com.voltcraft.estimator trade & construction electrical-cost-estimator">
+        <div>
+          <div class="card-category">Trade & Construction</div>
+          <div class="card-title">Voltcraft Electrical Estimator</div>
+          <div class="card-package">com.voltcraft.estimator</div>
+          <div class="card-desc">Electrical panel upgrades, EV charger installation calculator, clean energy tax credit assistant, and wiring bids.</div>
+        </div>
+        <div class="card-link">View Privacy Policy →</div>
+      </a>
+      
+      <a href="plumbing-cost-estimator.html" class="card" data-search="flowpro plumbing estimator com.flowpro.estimator trade & construction plumbing-cost-estimator">
+        <div>
+          <div class="card-category">Trade & Construction</div>
+          <div class="card-title">FlowPro Plumbing Estimator</div>
+          <div class="card-package">com.flowpro.estimator</div>
+          <div class="card-desc">Whole-home PEX repiping, tankless water heater sizing, water softener calculations, and plumbing fixture estimates.</div>
+        </div>
+        <div class="card-link">View Privacy Policy →</div>
+      </a>
+      
+      <a href="concrete-driveway-estimator.html" class="card" data-search="solidground concrete estimator com.precisionconcrete.estimator trade & construction concrete-driveway-estimator">
+        <div>
+          <div class="card-category">Trade & Construction</div>
+          <div class="card-title">SolidGround Concrete Estimator</div>
+          <div class="card-package">com.precisionconcrete.estimator</div>
+          <div class="card-desc">Concrete slab and driveway yardage calculator, rebar grid consolidation, stamp finishes, and pour labor costs.</div>
+        </div>
+        <div class="card-link">View Privacy Policy →</div>
+      </a>
+      
+      <a href="painting-cost-estimator.html" class="card" data-search="profinish painting estimator com.profinish.estimator trade & construction painting-cost-estimator">
+        <div>
+          <div class="card-category">Trade & Construction</div>
+          <div class="card-title">ProFinish Painting Estimator</div>
+          <div class="card-package">com.profinish.estimator</div>
+          <div class="card-desc">Interior and exterior painting calculator, cabinet refinishing, trim linear footage, and coating coverage bids.</div>
+        </div>
+        <div class="card-link">View Privacy Policy →</div>
+      </a>
+      
+      <a href="zero-fasting-tracker.html" class="card" data-search="zero fasting tracker com.anonymous.zerofastingtracker health & fitness zero-fasting-tracker">
+        <div>
+          <div class="card-category">Health & Fitness</div>
+          <div class="card-title">Zero Fasting Tracker</div>
+          <div class="card-package">com.anonymous.zerofastingtracker</div>
+          <div class="card-desc">Intermittent fasting timer supporting 16:8, 18:6, OMAD, and custom protocols with real-time metabolic stage visualizers.</div>
+        </div>
+        <div class="card-link">View Privacy Policy →</div>
+      </a>
+      
+      <a href="waterllama-hydration-tracker.html" class="card" data-search="waterllama hydration tracker com.microapps.waterllamahydrationtracker health & fitness waterllama-hydration-tracker">
+        <div>
+          <div class="card-category">Health & Fitness</div>
+          <div class="card-title">Waterllama Hydration Tracker</div>
+          <div class="card-package">com.microapps.waterllamahydrationtracker</div>
+          <div class="card-desc">Smart fluid balance tracking across water, coffee, tea, and electrolytes with visual hydration percentage goals.</div>
+        </div>
+        <div class="card-link">View Privacy Policy →</div>
+      </a>
+      
+      <a href="productive-habit-tracker.html" class="card" data-search="productive habit tracker com.microapps.productivehabittracker productivity productive-habit-tracker">
+        <div>
+          <div class="card-category">Productivity</div>
+          <div class="card-title">Productive Habit Tracker</div>
+          <div class="card-package">com.microapps.productivehabittracker</div>
+          <div class="card-desc">Daily habit streaks, weekly progress heatmaps, priority tagging, and ritual consistency tracking.</div>
+        </div>
+        <div class="card-link">View Privacy Policy →</div>
+      </a>
+      
+      <a href="daylio-mood-journal.html" class="card" data-search="daylio mood journal com.microapps.dayliomoodjournal health & lifestyle daylio-mood-journal">
+        <div>
+          <div class="card-category">Health & Lifestyle</div>
+          <div class="card-title">Daylio Mood Journal</div>
+          <div class="card-package">com.microapps.dayliomoodjournal</div>
+          <div class="card-desc">Micro-journaling mood tracker, activity correlation charts, and wellness logs without requiring extensive typing.</div>
+        </div>
+        <div class="card-link">View Privacy Policy →</div>
+      </a>
+      
+      <a href="tiimo-adhd-planner.html" class="card" data-search="tiimo visual adhd planner com.microapps.tiimoadhdplanner productivity tiimo-adhd-planner">
+        <div>
+          <div class="card-category">Productivity</div>
+          <div class="card-title">Tiimo Visual ADHD Planner</div>
+          <div class="card-package">com.microapps.tiimoadhdplanner</div>
+          <div class="card-desc">Visual countdown timers for time-blindness management, sensory-friendly dark mode, and step-by-step task routines.</div>
+        </div>
+        <div class="card-link">View Privacy Policy →</div>
+      </a>
+      
+      <a href="fabulous-routine-coach.html" class="card" data-search="fabulous behavioral coach com.microapps.fabulousroutinecoach health & productivity fabulous-routine-coach">
+        <div>
+          <div class="card-category">Health & Productivity</div>
+          <div class="card-title">Fabulous Behavioral Coach</div>
+          <div class="card-package">com.microapps.fabulousroutinecoach</div>
+          <div class="card-desc">Behavioral habit stacking, morning and evening guided rituals, and science-backed motivational prompts.</div>
+        </div>
+        <div class="card-link">View Privacy Policy →</div>
+      </a>
+      
+      <a href="splitwise-bill-splitter.html" class="card" data-search="splitwise bill splitter com.microapps.splitwisebillsplitter finance splitwise-bill-splitter">
+        <div>
+          <div class="card-category">Finance</div>
+          <div class="card-title">Splitwise Bill Splitter</div>
+          <div class="card-package">com.microapps.splitwisebillsplitter</div>
+          <div class="card-desc">Multi-payer expense splitting, group travel cost sharing, smart debt minimization algorithm, and settlement ledgers.</div>
+        </div>
+        <div class="card-link">View Privacy Policy →</div>
+      </a>
+      
+      <a href="gotall-height-predictor.html" class="card" data-search="gotall height predictor com.microapps.gotallheightpredictor health & growth gotall-height-predictor">
+        <div>
+          <div class="card-category">Health & Growth</div>
+          <div class="card-title">GoTall Height Predictor</div>
+          <div class="card-package">com.microapps.gotallheightpredictor</div>
+          <div class="card-desc">Clinical growth plate prediction models, HGH sleep tracking, spinal decompression timers, and pediatric percentile charts.</div>
+        </div>
+        <div class="card-link">View Privacy Policy →</div>
+      </a>
+      
+      <a href="smart-commute-tracker.html" class="card" data-search="smart commute route advisor com.smartcommute.trafficadvisor navigation & commute smart-commute-tracker">
+        <div>
+          <div class="card-category">Navigation & Commute</div>
+          <div class="card-title">Smart Commute Route Advisor</div>
+          <div class="card-package">com.smartcommute.trafficadvisor</div>
+          <div class="card-desc">Multi-route highway bottleneck analyzer, 30-day congestion trend modeling, optimal departure advisor, and travel log.</div>
+        </div>
+        <div class="card-link">View Privacy Policy →</div>
+      </a>
+      
+      <a href="chartdetector-ai.html" class="card" data-search="chartdetector ai com.chartdetector.ai finance & trading intelligence chartdetector-ai">
+        <div>
+          <div class="card-category">Finance & Trading Intelligence</div>
+          <div class="card-title">ChartDetector AI</div>
+          <div class="card-package">com.chartdetector.ai</div>
+          <div class="card-desc">Algorithmic candlestick pattern detector, institutional target calculations, interactive trade journal, and quantitative copilot.</div>
+        </div>
+        <div class="card-link">View Privacy Policy →</div>
+      </a>
+    </div>
+
+    <footer>
+      <p>&copy; 2026 Zahid. All rights reserved. | Hosted on <a href="https://zahid313.github.io">zahid313.github.io</a> via GitHub Pages.</p>
+      <p style="margin-top: 0.5rem; font-size: 0.8rem; color: #64748b;">These privacy policies satisfy Google Play Developer Distribution Agreement guidelines and COPPA / GDPR / CCPA privacy transparency mandates.</p>
+    </footer>
+  </div>
+
+  <script>
+    function filterCards() {
+      const q = document.getElementById('searchInput').value.toLowerCase().trim();
+      const cards = document.querySelectorAll('.card');
+      cards.forEach(card => {
+        const text = card.getAttribute('data-search');
+        if (text.includes(q)) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+  </script>
+</body>
+</html>
