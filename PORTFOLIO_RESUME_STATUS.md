@@ -20,15 +20,15 @@
 ## 📱 2. Detailed Application Status
 
 ### A. Tier 1 Lifestyle Apps (Assets Recreated & Synced)
-1. **`zero-fasting-tracker`** (Emerald `#10b981`):
+1. **`fasting-tracker`** (Emerald `#10b981`):
    - **Codebase:** 100% Light Theme. 39 clinical chapters in offline knowledge base.
    - **AI Coach:** Intelligent conversational routing with domain bridging (weather, general trivia, and software engineering questions).
    - **Store Assets:** `feature_graphic.png` (1024×500) + 4x `screenshot_*.png` (1080×1920) in Pure Light Theme.
-2. **`daylio-mood-journal`** (Pink/Rose `#ec4899`):
+2. **`mood-journal`** (Pink/Rose `#ec4899`):
    - **Codebase:** 100% Light Theme. 35 clinical CBT chapters.
    - **AI Coach:** Cognitive restructuring and emotional regulation coach.
    - **Store Assets:** 5 Light Theme assets generated and committed.
-3. **`tiimo-adhd-planner`** (Purple `#8b5cf6`):
+3. **`adhd-planner`** (Purple `#8b5cf6`):
    - **Codebase:** 100% Light Theme. 35 clinical ADHD chapters.
    - **AI Coach:** Executive dysfunction hacks, dopamine menu routines.
    - **Store Assets:** 5 Light Theme assets generated and committed.
@@ -36,7 +36,7 @@
    - **Codebase:** 100% Light Theme. 35 clinical habit loop chapters.
    - **AI Coach:** Atomic habits, implementation intentions, relapse prevention.
    - **Store Assets:** 5 Light Theme assets generated and committed.
-5. **`waterllama-hydration-tracker`** (Sky Cyan `#06b6d4`):
+5. **`hydration-tracker`** (Sky Cyan `#06b6d4`):
    - **Codebase:** 100% Light Theme. Multi-beverage hydration weighting and stats.
    - **Store Assets:** 5 Light Theme assets generated and committed.
 
@@ -86,8 +86,8 @@ All 7 apps are functional in Pure Light Theme with verified formulas, AdMob sess
 ---
 
 ### D. Remaining Tier 3 Apps (4 Apps)
-1. `fabulous-routine-coach` (`#f43f5e`)
-2. `splitwise-bill-splitter` (`#10b981`)
+1. `routine-coach` (`#f43f5e`)
+2. `bill-splitter` (`#10b981`)
 3. `smart-commute-tracker` (`#0284c7`)
 4. `chartdetector-ai` (`#6366f1`)
 * *Pending:* Recreating their Play Store graphics (`assets/store/`) in Pure Light Theme.
