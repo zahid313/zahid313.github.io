@@ -6,6 +6,15 @@
 
 ---
 
+
+## 🏢 Enterprise Leadership: Qualitex Trading (Head of Technology)
+
+* **Role:** Head of Technology
+* **Core Domains:**
+  1. **Japanese Auction-Sheet Computer Vision & OCR:** Automated ingestion, frame number extraction, and negative remark detection for USS, TAA, CAA auctions.
+  2. **Hybrid AI & Core Infrastructure:** On-premises local LLM clusters (LM Studio / Qwen 2.5 on LAN, ~2s latency) + cloud n8n webhooks (`ai.qualitextrading.com`) + Microsoft Outlook COM Add-ins for in-place translation.
+  3. **Distributed Team Leadership:** Managing multi-country engineering and operational personnel across Japan headquarters and Karachi operations hubs.
+
 ## 🎯 1. Executive Summary of Current State
 
 | Category | Total Projects | Theme Status | Knowledge Base / AI Coach | Store Graphic Assets | Git Remote Sync |
