@@ -10,7 +10,7 @@
 
 | Category | Total Projects | Theme Status | Knowledge Base / AI Coach | Store Graphic Assets | Git Remote Sync |
 |---|---|---|---|---|---|
-| **Tier 1 Lifestyle & Wellness** | 5 Apps | ☀️ Pure Light Theme | 144 Clinical Chapters (BM25 Engine) | ☀️ Pure Light Theme (25 Assets) | ✅ Synced (`origin/main`) |
+| **Tier 1 Lifestyle & Wellness** | 5 Apps | ☀️ Pure Light Theme | 144 Evidence-Informed Chapters (Based on Published Research) (BM25 Engine) | ☀️ Pure Light Theme (25 Assets) | ✅ Synced (`origin/main`) |
 | **Tier 2 Construction Estimators** | 7 Apps | ☀️ Pure Light Theme | Built-in Construction Formulas | 🌙 Legacy Dark Theme | ✅ Synced (`origin/main`) |
 | **Tier 3 Growth, AI & Mobility** | 5 Apps | ☀️ Pure Light Theme | Specialized Logic (Khamis-Roche, etc.) | 🌙 Legacy Dark Theme | ✅ Synced (`origin/main`) |
 | **Automation & Tooling** | 2 Projects | Complete | Dual-Language Video & Webhooks | Documentation Complete | ✅ Synced (`origin/main`) |
@@ -21,19 +21,19 @@
 
 ### A. Tier 1 Lifestyle Apps (Assets Recreated & Synced)
 1. **`fasting-tracker`** (Emerald `#10b981`):
-   - **Codebase:** 100% Light Theme. 39 clinical chapters in offline knowledge base.
+   - **Codebase:** 100% Light Theme. 39 evidence-informed chapters in offline knowledge base (based on published research).
    - **AI Coach:** Intelligent conversational routing with domain bridging (weather, general trivia, and software engineering questions).
    - **Store Assets:** `feature_graphic.png` (1024×500) + 4x `screenshot_*.png` (1080×1920) in Pure Light Theme.
 2. **`mood-journal`** (Pink/Rose `#ec4899`):
-   - **Codebase:** 100% Light Theme. 35 clinical CBT chapters.
+   - **Codebase:** 100% Light Theme. 35 evidence-informed CBT reframing chapters (based on published research).
    - **AI Coach:** Cognitive restructuring and emotional regulation coach.
    - **Store Assets:** 5 Light Theme assets generated and committed.
 3. **`adhd-planner`** (Purple `#8b5cf6`):
-   - **Codebase:** 100% Light Theme. 35 clinical ADHD chapters.
+   - **Codebase:** 100% Light Theme. 35 evidence-informed ADHD strategy chapters (based on published research).
    - **AI Coach:** Executive dysfunction hacks, dopamine menu routines.
    - **Store Assets:** 5 Light Theme assets generated and committed.
 4. **`productive-habit-tracker`** (Indigo `#6366f1`):
-   - **Codebase:** 100% Light Theme. 35 clinical habit loop chapters.
+   - **Codebase:** 100% Light Theme. 35 evidence-informed habit formation chapters (based on published behavioral science).
    - **AI Coach:** Atomic habits, implementation intentions, relapse prevention.
    - **Store Assets:** 5 Light Theme assets generated and committed.
 5. **`hydration-tracker`** (Sky Cyan `#06b6d4`):
@@ -52,7 +52,7 @@
   - 7-step viral onboarding assessment with simulated biometric radar scan.
   - Results paywall modal (Superwall-style weekly/yearly passes with 3-day trial).
   - Daily growth protocol checklist + **interactive 60-Second Decompression Hang Timer**.
-  - AI Endocrinologist Coach.
+  - AI Growth & Wellness Guide.
 * **Current Status:** Pure Light Theme active. Running on local Metro dev server (`localhost:8082`).
 
 #### 2. `n8n-faceless-social-automator`
@@ -116,8 +116,8 @@ When returning to resume work, pick up from any of these clear priorities:
 
 1. **Regenerate Light Theme Store Graphics for Tier 2 & Tier 3 Apps:**
    - Run a batch generator for the 7 Trade Estimators and remaining Tier 3 apps (`gotall`, `splitwise`, `chartdetector`, `fabulous`, `smart-commute`).
-2. **Upgrade GoTall AI Endocrinologist:**
-   - Expand `CoachScreen.tsx` with a 35-chapter clinical growth and posture knowledge base (similar to the Tier 1 apps).
+2. **Upgrade GoTall AI Growth Guide:**
+   - Expand `CoachScreen.tsx` with a 35-chapter evidence-informed growth and posture knowledge base (based on published research) (similar to the Tier 1 apps).
 3. **Google Play Console Registration:**
    - Register the developer account (via Japan or Pakistan route).
    - Fill out the W-8BEN tax form.

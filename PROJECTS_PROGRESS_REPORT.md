@@ -89,7 +89,7 @@ Every application has a dedicated [`STORE_LISTING.md`](file:///C:/Users/User/Doc
 | 12 | Visual ADHD Planner | `Visual ADHD Planner: Visual ADHD Planner` | Visual daily routine planner with visual countdown timers for time-blindness. | [`STORE_LISTING.md`](file:///C:/Users/User/Documents/Projects/adhd-planner/STORE_LISTING.md) | [5 Light Theme Assets (`assets/store/`)](file:///C:/Users/User/Documents/Projects/adhd-planner/assets/store/) |
 | 13 | Daily Routine Coach | `Daily Routine Coach: Daily Routine Coach` | Habit stacking, morning and evening rituals, and behavioral science coaching. | [`STORE_LISTING.md`](file:///C:/Users/User/Documents/Projects/routine-coach/STORE_LISTING.md) | [4 Assets (`assets/store/`)](file:///C:/Users/User/Documents/Projects/routine-coach/assets/store/) |
 | 14 | Bill Splitter | `Bill Splitter: Bill & Cost Split` | Split group bills, shared trip costs, track balances, and minimize debts. | [`STORE_LISTING.md`](file:///C:/Users/User/Documents/Projects/bill-splitter/STORE_LISTING.md) | [4 Assets (`assets/store/`)](file:///C:/Users/User/Documents/Projects/bill-splitter/assets/store/) |
-| 15 | GoTall Height Predictor | `GoTall: Height Predictor` | Clinical growth plate prediction, pediatric percentiles, and posture timers. | [`STORE_LISTING.md`](file:///C:/Users/User/Documents/Projects/gotall-height-predictor/STORE_LISTING.md) | [4 Assets (`assets/store/`)](file:///C:/Users/User/Documents/Projects/gotall-height-predictor/assets/store/) |
+| 15 | GoTall Height Predictor | `GoTall: Height Predictor` | Evidence-informed height estimation based on published Khamis-Roche research, percentile curves, and posture timers. | [`STORE_LISTING.md`](file:///C:/Users/User/Documents/Projects/gotall-height-predictor/STORE_LISTING.md) | [4 Assets (`assets/store/`)](file:///C:/Users/User/Documents/Projects/gotall-height-predictor/assets/store/) |
 | 16 | Smart Commute Route Advisor | `Smart Commute: Route Advisor` | Analyze highway bottlenecks, 30-day congestion trends, and optimal departure. | [`STORE_LISTING.md`](file:///C:/Users/User/Documents/Projects/smart-commute-tracker/STORE_LISTING.md) | [4 Assets (`assets/store/`)](file:///C:/Users/User/Documents/Projects/smart-commute-tracker/assets/store/) |
 | 17 | ChartDetector AI | `ChartDetector: AI Candlestick` | AI candlestick pattern detector, institutional target levels, and trading copilot. | [`STORE_LISTING.md`](file:///C:/Users/User/Documents/Projects/chartdetector-ai/STORE_LISTING.md) | [4 Assets (`assets/store/`)](file:///C:/Users/User/Documents/Projects/chartdetector-ai/assets/store/) |
 
@@ -129,7 +129,7 @@ Every application has a dedicated [`STORE_LISTING.md`](file:///C:/Users/User/Doc
 
 | # | Application | Directory | Package Name | Key Features |
 |---|---|---|---|---|
-| 15 | **GoTall Height Predictor** | `gotall-height-predictor` | `com.zahid313.gotallheightpredictor` | Clinical growth plates prediction, HGH sleep tracking, spinal decompression timers, pediatrician growth coach. |
+| 15 | **GoTall Height Predictor** | `gotall-height-predictor` | `com.zahid313.gotallheightpredictor` | Evidence-informed height projection models based on published research, sleep quality tracking, spinal decompression timers, and growth wellness guide. |
 | 16 | **Smart Commute Route Advisor** | `smart-commute-tracker` | `com.zahid313.smartcommuteadvisor` | Multi-route highway bottleneck analyzer, 30-day congestion trend modeling, optimal departure advisor, TomTom sync. |
 | 17 | **ChartDetector AI** | `chartdetector-ai` | `com.zahid313.chartdetectorai` | AI Vision candlestick pattern detection, institutional targets, interactive trade journal, quantitative trading copilot. |
 
@@ -248,7 +248,7 @@ The portfolio now integrates offline-first, high-performance conversational AI e
 
 ### Key Architectural Highlights:
 - **BM25 Probabilistic Information Retrieval Engine**: Utilizes Robertson-Spärck Jones BM25 term weighting, TF-IDF saturation ($k_1=1.2, b=0.75$), and stop-word filtering for instant on-device semantic ranking.
-- **Whole Book-Level Textbooks**: Dedicated domain corpuses (`fastingCorpus.ts`, `cbtCorpus.ts`, `adhdCorpus.ts`, `habitsCorpus.ts`) containing comprehensive chapter-depth clinical knowledge, molecular biology, diagnostic guides, and neurodivergent playbooks.
+- **Whole Book-Level Textbooks**: Dedicated domain corpuses (`fastingCorpus.ts`, `cbtCorpus.ts`, `adhdCorpus.ts`, `habitsCorpus.ts`) containing comprehensive chapter-depth evidence-informed knowledge based on published research, molecular biology, diagnostic guides, and neurodivergent playbooks.
 - **Interactive Chapter Browsers & Follow-Up Chips**: Category pill navigation strips, quick chapter launch cards, and contextual suggested follow-up questions beneath every answer.
 - **100% Offline-First & Private**: Sub-second responses without external cloud API key requirements, zero monthly token costs, and 100% data privacy.
 - **Pure White / Light Theme**: Clean `#F8FAFC` and `#FFFFFF` cards, high-contrast Slate typography, and brand-accented user chat bubbles.
@@ -269,9 +269,9 @@ A lightweight Python HTTP portal is active on the local network to allow immedia
 
 ---
 
-## 🧠 Offline AI Coach & 123-Chapter Clinical Knowledge Base (Tier 1 Apps)
+## 🧠 Offline AI Coach & 123-Chapter Evidence-Informed Knowledge Base (Based on Published Research) (Tier 1 Apps)
 
-The 4 flagship wellness and habit apps are equipped with an enterprise-grade **100% Offline AI Coach & Interactive Knowledge Retrieval Engine**. Rather than relying on paid cloud APIs (OpenAI/Anthropic) that require monthly subscription fees and internet connectivity, each app embeds a complete, book-level clinical and behavioral corpus powered by an in-memory **Okapi BM25 Information Retrieval Engine** (`bm25Engine.ts`).
+The 4 flagship wellness and habit apps are equipped with an enterprise-grade **100% Offline AI Coach & Interactive Knowledge Retrieval Engine**. Rather than relying on paid cloud APIs (OpenAI/Anthropic) that require monthly subscription fees and internet connectivity, each app embeds a complete, book-level evidence-informed and behavioral corpus based on published research powered by an in-memory **Okapi BM25 Information Retrieval Engine** (`bm25Engine.ts`).
 
 ### 📚 Knowledge Base Corpus Breakdown (123 Chapters Total)
 
@@ -284,9 +284,9 @@ The 4 flagship wellness and habit apps are equipped with an enterprise-grade **1
 
 ### 🔍 BM25 Search Engine Highlights
 - **Sub-Millisecond Offline Search**: Fast inverted index with term frequency, document frequency, and length normalization ($k_1 = 1.5, b = 0.75$).
-- **Visual Category Pills**: Quick one-tap access to every clinical subject domain directly from the chat screen.
+- **Visual Category Pills**: Quick one-tap access to every evidence-informed subject domain directly from the chat screen.
 - **Dynamic Context Injection**: Real-time integration with user state (active streaks, fasting hours, mood trends).
-- **Proactive Question Prompts**: Every clinical chapter returns 3 contextually relevant follow-up questions to stimulate deeper learning.
+- **Proactive Question Prompts**: Every chapter returns 3 contextually relevant follow-up questions to stimulate deeper learning.
 
 ### 🛡️ Once-Per-Session Interstitial Ad Capping (All 17 Apps)
 - Full-screen interstitial ads across all 17 portfolio apps are strictly capped to **at most once per user session** via an in-memory session lock in `src/services/adService.ts`.
