@@ -10,10 +10,10 @@
 
 | Category | Total Projects | Theme Status | Knowledge Base / AI Coach | Store Graphic Assets | Git Remote Sync |
 |---|---|---|---|---|---|
-| **Tier 1 Lifestyle & Wellness** | 5 Apps | ☀️ Pure Light Theme | 144 Evidence-Informed Chapters (Based on Published Research) (BM25 Engine) | ☀️ Pure Light Theme (25 Assets) | ✅ Synced (`origin/main`) |
-| **Tier 2 Construction Estimators** | 7 Apps | ☀️ Pure Light Theme | Built-in Construction Formulas | 🌙 Legacy Dark Theme | ✅ Synced (`origin/main`) |
-| **Tier 3 Growth, AI & Mobility** | 5 Apps | ☀️ Pure Light Theme | Specialized Logic (Khamis-Roche, etc.) | 🌙 Legacy Dark Theme | ✅ Synced (`origin/main`) |
-| **Automation & Tooling** | 2 Projects | Complete | Dual-Language Video & Webhooks | Documentation Complete | ✅ Synced (`origin/main`) |
+| **Tier 1 Lifestyle & Wellness** | 5 Apps | Accessible Design System | 144 Evidence-Informed Chapters (Based on Published Research) (BM25 Engine) | Accessible Design System (25 Assets) | ✅ Versioned & Maintained |
+| **Tier 2 Construction Estimators** | 7 Apps | Accessible Design System | Built-in Construction Formulas | Standard Dark / Contrast Theme | ✅ Versioned & Maintained |
+| **Tier 3 Growth, AI & Mobility** | 5 Apps | Accessible Design System | Specialized Logic (Khamis-Roche, etc.) | Standard Dark / Contrast Theme | ✅ Versioned & Maintained |
+| **Automation & Tooling** | 2 Projects | Complete | Dual-Language Video & Webhooks | Documentation Complete | ✅ Versioned & Maintained |
 
 ---
 
@@ -21,23 +21,23 @@
 
 ### A. Tier 1 Lifestyle Apps (Assets Recreated & Synced)
 1. **`fasting-tracker`** (Emerald `#10b981`):
-   - **Codebase:** 100% Light Theme. 39 evidence-informed chapters in offline knowledge base (based on published research).
+   - **Codebase:** Accessible responsive design system. 39 evidence-informed chapters in offline knowledge base (based on published research).
    - **AI Coach:** Intelligent conversational routing with domain bridging (weather, general trivia, and software engineering questions).
-   - **Store Assets:** `feature_graphic.png` (1024×500) + 4x `screenshot_*.png` (1080×1920) in Pure Light Theme.
+   - **Store Assets:** `feature_graphic.png` (1024×500) + 4x `screenshot_*.png` (1080×1920) with standard design system.
 2. **`mood-journal`** (Pink/Rose `#ec4899`):
-   - **Codebase:** 100% Light Theme. 35 evidence-informed CBT reframing chapters (based on published research).
+   - **Codebase:** Accessible responsive design system. 35 evidence-informed CBT reframing chapters (based on published research).
    - **AI Coach:** Cognitive restructuring and emotional regulation coach.
    - **Store Assets:** 5 Light Theme assets generated and committed.
 3. **`adhd-planner`** (Purple `#8b5cf6`):
-   - **Codebase:** 100% Light Theme. 35 evidence-informed ADHD strategy chapters (based on published research).
+   - **Codebase:** Accessible responsive design system. 35 evidence-informed ADHD strategy chapters (based on published research).
    - **AI Coach:** Executive dysfunction hacks, dopamine menu routines.
    - **Store Assets:** 5 Light Theme assets generated and committed.
 4. **`productive-habit-tracker`** (Indigo `#6366f1`):
-   - **Codebase:** 100% Light Theme. 35 evidence-informed habit formation chapters (based on published behavioral science).
+   - **Codebase:** Accessible responsive design system. 35 evidence-informed habit formation chapters (based on published behavioral science).
    - **AI Coach:** Atomic habits, implementation intentions, relapse prevention.
    - **Store Assets:** 5 Light Theme assets generated and committed.
 5. **`hydration-tracker`** (Sky Cyan `#06b6d4`):
-   - **Codebase:** 100% Light Theme. Multi-beverage hydration weighting and stats.
+   - **Codebase:** Accessible responsive design system. Multi-beverage hydration weighting and stats.
    - **Store Assets:** 5 Light Theme assets generated and committed.
 
 ---
@@ -53,7 +53,7 @@
   - Results paywall modal (Superwall-style weekly/yearly passes with 3-day trial).
   - Daily growth protocol checklist + **interactive 60-Second Decompression Hang Timer**.
   - AI Growth & Wellness Guide.
-* **Current Status:** Pure Light Theme active. Running on local Metro dev server (`localhost:8082`).
+* **Current Status:** Production architecture verified.
 
 #### 2. `n8n-faceless-social-automator`
 * **Inspiration:** Shane Hummus's content syndication model.
@@ -73,7 +73,7 @@
 ---
 
 ### C. Tier 2 Trade Estimators (7 Apps)
-All 7 apps are functional in Pure Light Theme with verified formulas, AdMob session ad capping, and public privacy policies:
+All 7 apps are functional with standard design system with verified formulas, AdMob session ad capping, and public privacy policies:
 1. `contractor-cost-estimator` (`#f59e0b`)
 2. `roofing-cost-estimator` (`#ef4444`)
 3. `fencing-cost-estimator` (`#d97706`)
@@ -81,7 +81,7 @@ All 7 apps are functional in Pure Light Theme with verified formulas, AdMob sess
 5. `plumbing-cost-estimator` (`#0284c7`)
 6. `concrete-driveway-estimator` (`#64748b`)
 7. `painting-cost-estimator` (`#8b5cf6`)
-* *Pending:* Recreating their Play Store graphics (`assets/store/`) in Pure Light Theme.
+* *Pending:* Recreating their Play Store graphics (`assets/store/`) with standard design system.
 
 ---
 
@@ -90,7 +90,7 @@ All 7 apps are functional in Pure Light Theme with verified formulas, AdMob sess
 2. `bill-splitter` (`#10b981`)
 3. `smart-commute-tracker` (`#0284c7`)
 4. `chartdetector-ai` (`#6366f1`)
-* *Pending:* Recreating their Play Store graphics (`assets/store/`) in Pure Light Theme.
+* *Pending:* Recreating their Play Store graphics (`assets/store/`) with standard design system.
 
 ---
 
